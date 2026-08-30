@@ -1,0 +1,71 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Cozy Felt Craft Warm Color Palette */
+  --color-twilight-main: #9D4EDD;
+  --color-twilight-sub: #FF9CCB;
+  --color-twilight-point: #7BB0FF;
+  --color-twilight-bg: #FFFDF9;
+  
+  --shadow-twilight-soft: 0 10px 30px -10px rgba(255, 156, 203, 0.45);
+  --shadow-twilight-point: 0 10px 25px -8px rgba(123, 176, 255, 0.4);
+  --shadow-twilight-card: 0 8px 30px rgba(157, 78, 221, 0.04);
+}
+
+/* Base custom classes for high-aesthetic mesh glow */
+.twilight-mesh-container {
+  background-color: #FFFDF9;
+  position: relative;
+  overflow: hidden;
+}
+
+.twilight-mesh-blur-1 {
+  position: absolute;
+  top: -15%;
+  right: -10%;
+  width: 45vw;
+  height: 45vw;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(255, 156, 203, 0.22) 0%, rgba(255, 156, 203, 0) 70%);
+  filter: blur(100px);
+  pointer-events: none;
+}
+
+.twilight-mesh-blur-2 {
+  position: absolute;
+  bottom: -15%;
+  left: -10%;
+  width: 50vw;
+  height: 50vw;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(157, 78, 221, 0.15) 0%, rgba(157, 78, 221, 0) 70%);
+  filter: blur(120px);
+  pointer-events: none;
+}
+
+/* Custom scrollbar styling to sustain the minimalist iOS / Notion vibe */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5D5FC;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4ADFC;
+}
+
+/* Masonry grid helper classes if needed */
+.masonry-grid-col {
+  break-inside: avoid;
+}
+
