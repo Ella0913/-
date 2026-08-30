@@ -177,7 +177,7 @@ export default function App() {
                 </span>
               </div>
               <p className="text-[11px] text-stone-500 font-medium font-sans">
-                여러 종류의 레퍼런스에 관하여
+                여러 관점의 레퍼런스에 관하여
               </p>
             </div>
           </div>
@@ -453,11 +453,11 @@ export default function App() {
             </div>
             <p className="font-extrabold text-[#9D4EDD]">눈썰미 차곡차곡 © 2026</p>
             <p className="leading-relaxed text-stone-500 text-[11px]">
-              여러 종류의 레퍼런스에 관하여 · 단순함과 평온함을 기록하는 새벽녘의 꿈
+              여러 관점의 레퍼런스에 관하여
             </p>
             <div className="flex justify-center items-center gap-1.5 pt-1 text-[10px] text-[#7BB0FF] font-bold">
               <span className="inline-block w-1.5 h-1.5 rounded-full bg-[#FF9CCB] animate-pulse" />
-              <span>몽환적이고 따사로운 새벽빛을 담은 커스텀 아카이브 스튜디오</span>
+              <span> 나만의 아카이브 스튜디오</span>
             </div>
           </div>
         </footer>
